@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\</FILEPATH>
+      <FILENAME>source.cpp</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6993</DEFECTCODE>
+    <DESCRIPTION>Code analysis ignores OpenMP constructs; analyzing single-threaded code.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\</FILEPATH>
+      <FILENAME>source.cpp</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '16' of 'c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\source.cpp'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\</FILEPATH>
+      <FILENAME>source.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'j' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '16' of 'c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\source.cpp'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\</FILEPATH>
+      <FILENAME>source.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'k' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '16' of 'c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\source.cpp'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\diaco\documents\visual studio 2015\projects\matricx_multiplication\matrix_multiplication_threads\</FILEPATH>
+        <FILENAME>source.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
