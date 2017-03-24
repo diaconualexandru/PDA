@@ -1,0 +1,7 @@
+secvential code
+ size 1000 time 12 s 630 ms
+ size 1500 time 55 s 545 ms
+openMP code
+ size 1000 time 6 s 134 ms
+ size 1500 time 22 s 70 ms
+ size 2000 time 49 s 356 ms
