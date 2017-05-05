@@ -53,6 +53,7 @@ int main() {
 
 #pragma omp parallel for
 		for (int i = 0; i < SIZE; i++) {
+			printf("I am thread %d and i am running \n", omp_get_thread_num());
 			for (int j = 0; j < SIZE; j++) {
 				double dot = 0;
 				for (int k = 0; k < SIZE; k++) {
